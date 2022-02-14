@@ -173,7 +173,7 @@ class SilvaDownloader(BaseDownloader):
     # SILVA_123.1_LSURef_tax_silva_trunc.fasta.gz
     BASEURL = "https://ftp.arb-silva.de/{reldir}/Exports/"
     FILENAMES = {
-        "SSU": "SILVA_{rel}_SSURef_Nr99_tax_silva_trunc.fasta.gz",
+        "SSU": "SILVA_{rel}_SSURef_NR99_tax_silva_trunc.fasta.gz",
         "LSU": "SILVA_{rel}_LSURef_tax_silva_trunc.fasta.gz",
         "LICENSE": "LICENSE.txt",
         "LISTING": ""
